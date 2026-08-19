@@ -23,9 +23,14 @@ O objetivo principal é implementar a solução de cada problema em **três ling
 ```text
 .
 ├── 01-listas-encadeadas/
-│   ├── exercicio-01/
-│   │   ├── README.md       # Enunciado/detalhes do exercício
-│   │   ├── main.c          # Solução em C
-│   │   ├── Main.java       # Solução em Java
-│   │   └── main.py         # Solução em Python
+│   ├── README.md             # Enunciados e anotações do módulo
+│   ├── c/
+│   │   ├── ex01_inverter.c
+│   │   └── ex02_buscar.c
+│   ├── java/
+│   │   ├── Ex01Inverter.java
+│   │   └── Ex02Buscar.java
+│   └── python/
+│       ├── ex01_inverter.py
+│       └── ex02_buscar.py
 └── README.md
