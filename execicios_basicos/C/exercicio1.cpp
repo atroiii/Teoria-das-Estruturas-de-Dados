@@ -5,23 +5,18 @@
 float calculaAreaBase(float pi, float raio) {
     return pi * pow(raio , 2);
 }
-
 float calcularAreaLateral(float pi ,float raio, float altura) {
     return 2 * pi * raio * altura;
 }
-
 float calcularAreaTotal(float areaBase, float areaLateral) {
     return 2 * areaBase + areaLateral;
 }
-
 float calcularLitrosTotais(float areaTotal) {
     return areaTotal / 3;
 }
-
 float calcularQuantidadeLatas(float litrosTotais) {
     return ceil(litrosTotais / 5);
 }
-
 float calculaCusto(float quantidadeLatas) {
     return quantidadeLatas * 50;
 }
