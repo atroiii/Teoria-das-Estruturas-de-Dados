@@ -1,4 +1,3 @@
-from shlex import join
 
 setores = "Financeiro;RH;TI;Compras"
 setores = setores.split(";")
